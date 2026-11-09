@@ -27,7 +27,7 @@ services:
             - "8501:8501"
         container_name: stream0-litapp
         environment:
-            - MONGO_URI: "mongodb://Admin:Anirudh123@mongo:27017/?authSource=admin"
+            MONGO_URI: "mongodb://Admin:Anirudh123@mongo:27017/?authSource=admin"
         depends_on:
             - mongo
         
