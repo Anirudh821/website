@@ -1,5 +1,5 @@
 def call(){
-  withCredentials[(usernamePassword(
+  withCredentials([usernamePassword(
     credentialsId: "Admins_ID",
     usernameVariable: "my_id",
     passwordVariable: "my_password"
