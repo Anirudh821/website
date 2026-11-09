@@ -1,7 +1,7 @@
 def call(){
   withCredentials[(usernamePassword(
-    credentialsId: "Admins_ID"
-    usernameVariable: "my-id"
+    credentialsId: "Admins_ID",
+    usernameVariable: "my_id",
     passwordVariable: "my-password"
 )])
  {
