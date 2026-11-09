@@ -1,6 +1,6 @@
 FROM  python:3.12-slim
 WORKDIR /app
-COPY requirments.txt .
+COPY requrments.txt .
 RUN pip install --no-cache-dir -r requirments.tcxt 
 COPY . .
 EXPOSE 8501
