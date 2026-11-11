@@ -26,7 +26,7 @@ pipeline{
             stage("Deploy"){
                 steps{
                     echo "container running"
-                    sh 'docker compose -f "docker-compose.yaml" up -d'
+                    sh 'docker compose down && docker compose -f "docker-compose.yaml" up -d'
                     }
                 }
             }
