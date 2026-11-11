@@ -1,2 +1,2 @@
-def call(String ImageName, String ImageTag , String DockerUserName){
-  sh ' docker build -t "DockerUserName"/"$ImageNamr":"$ImageTag" .'
+def call(String ImageName, String ImageTag ){
+  sh ' docker build -t "$ImageNamr":"$ImageTag" .'
