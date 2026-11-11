@@ -1,2 +1,2 @@
 def call(String ImageName, String ImageTag ){
-  sh ' docker build -t "$ImageNamr":"$ImageTag" .'
+  sh ' docker build -t "$ImageName":"$ImageTag" .'
